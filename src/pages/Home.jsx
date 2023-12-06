@@ -1,4 +1,3 @@
-import React from 'react'
 import './Pages.css'
 import Courses from './Courses'
 import About from './About'

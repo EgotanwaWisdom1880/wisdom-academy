@@ -9,7 +9,6 @@ import './Header copy.css'
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
-    const [isReg, setIsReg] = useState(false);
 
   const toggleSidebar = () => {
     setIsOpen(!isOpen);
@@ -23,16 +22,16 @@ function Header() {
           
   };
 
-const Register =()=> {
- return(
-  <form>
-    <input type="text" />
-    <input type="text" />
-    <input type="text" />
-    <input type="text" />
-  </form>
- )
-}
+// const Register =()=> {
+//  return(
+//   <form>
+//     <input type="text" />
+//     <input type="text" />
+//     <input type="text" />
+//     <input type="text" />
+//   </form>
+//  )
+// }
 
   return (
     <>

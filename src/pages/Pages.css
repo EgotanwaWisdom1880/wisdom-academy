@@ -44,7 +44,7 @@
     .display-course{
         background-color: #c5c6c7;
         height: 350px;
-        padding: 10px;
+        padding: 10px 0;
     }
     .txt{
         text-align: center;
@@ -53,7 +53,7 @@
         font-family: 'IBM Plex Sans', sans-serif;
     }
     .courses{
-        padding-left: 20px;
+        padding-top: 20px;
         background-color: #c5c6c7;
         display: flex;
         align-items: center;
@@ -89,7 +89,7 @@
     .display-course{
         background-color: #c5c6c7;
         height: 800px;
-        padding: 10px;
+        /* padding: 10px; */
     }
     .txt{
         text-align: center;
@@ -134,7 +134,7 @@
     .display-course{
         background-color: #c5c6c7;
         height: 800px;
-        padding: 10px;
+        /* padding: 10px; */
     }
     .txt{
         text-align: center;
@@ -179,7 +179,7 @@
     .display-course{
         background-color: #c5c6c7;
         height: 800px;
-        padding: 10px;
+        /* padding: 10px; */
     }
     .txt{
         text-align: center;
@@ -262,13 +262,7 @@
 
 
 @media only screen and (max-width: 820px) {
-    .about-tutor{
-        background-color: #1f2833;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 20px;
-    }
+
     .text-box{
         padding-left: 30px;
         padding-top: 20px;
@@ -292,12 +286,7 @@
 }
 
 @media only screen and (max-width: 750px) {
-    .about-tutor{
-        background-color: #1f2833;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 20px;
+    .about-wrap{
         flex-direction: column-reverse;
     }
     .text-box{
@@ -324,14 +313,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .about-tutor{
-        background-color: #1f2833;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 20px;
-        flex-direction: column-reverse;
-    }
     .text-box{
         padding-left: 30px;
         padding-top: 20px;
@@ -357,14 +338,6 @@
 
 
 @media only screen and (max-width: 414px) {
-    .about-tutor{
-        background-color: #1f2833;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 20px;
-        flex-direction: column-reverse;
-    }
     .text-box{
         padding-left: 30px;
         padding-top: 20px;

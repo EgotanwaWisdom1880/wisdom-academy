@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.sidebar-click{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.line1 {
+    height: 5px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: #66fcf1;
+}
+
+.line2 {
+    height: 5px;
+    width: 30px;
+    border-radius: 50px;
+    background-color: #66fcf1;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.line3 {
+    height: 5px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: #66fcf1;
+    margin-top: 5px;
+    margin-left: 9px;
+}
+
+.header{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+header{
+    display: flex;
+    width: 100%;
+}
+.company-names{
+    /* position: absolute; */
+    left: 40%;
+    text-align: center;
+    margin-top: 30px;
+    color: #66fcf1;
+    font-family: 'Prompt', sans-serif;
+}
+.register{
+    /* position: absolute; */
+    left: 90%;
+    margin-top: 30px;
+    background-color: #1f2833;
+    color: #66fcf1;
+    height: 40px;
+    width: 100px;
+    border-style: none;
+    border-radius: 5px;
+}
+.register2{
+    /* position: absolute; */
+    margin-left: -450px;
+    margin-top: 370px;
+    background-color: #66fcf1;
+    color: #1f2833;
+    height: 40px;
+    width: 100px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.quote-group{
+    color: #fff;
+
+}
+
+.tech-quote{
+    /* color: #fff;
+    text-align: left;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 200px;
+    margin-left: 100px;
+    font-size: 25px; */
+}
+
+.offer{
+    /* color: white;
+    font-family: 'Prompt', sans-serif;
+    margin-top: 330px;
+    margin-left: -200px; */
+}
+
+.coding-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    /* background-color: #1f2833; */
+}
+.coding{
+    height: 250px;
+    width: auto;
+    margin-left: 450px;
+}
+
+
+/* @media only screen and (max-width: 768px) {
+    .sidebar-click{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .line1 {
+        height: 4px;
+        width: 30px;
+        border-radius: 50px;
+        background-color: #66fcf1;
+    }
+    
+    .line2 {
+        height: 4px;
+        width: 20px;
+        border-radius: 50px;
+        background-color: #66fcf1;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    
+    .line3 {
+        height: 4px;
+        width: 10px;
+        border-radius: 50px;
+        background-color: #66fcf1;
+        margin-top: 5px;
+        margin-left: 9px;
+    }
+    
+    .header{
+        display: flex;
+        height: 800px;
+        width: 100%;
+        background-color: white;
+    }
+    .company-names{
+        position: absolute;
+        left: 25%;
+        text-align: center;
+        margin-top: 20px;
+        color: #66fcf1;
+        font-family: 'Prompt', sans-serif;
+        font-size: 13px;
+    }
+    .register{
+        position: absolute;
+        left: 75%;
+        margin-top: 30px;
+        background-color: #1f2833;
+        color: #66fcf1;
+        height: 40px;
+        width: 100px;
+        border-style: none;
+        border-radius: 5px;
+    }
+    .register2{
+        
+        margin-left: -10px;
+        margin-top: 270px;
+        background-color: #66fcf1;
+        color: #1f2833;
+        height: 40px;
+        width: 100px;
+        border-style: none;
+        border-radius: 5px;
+    }
+    
+    .tech-quote{
+        color: #fff;
+        text-align: center;
+       
+        font-family: 'IBM Plex Sans', sans-serif;
+        margin-top: 150px;
+        margin-left: 50px;
+        font-size: 15px;
+    }
+    
+    .offer{
+        color: white;
+        font-family: 'Prompt', sans-serif;
+        margin-top: 320px;
+        margin-left: -150px;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .coding-wrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        
+    }
+    .coding{
+        height: 150px;
+        width: auto;
+        margin-left: 250px;
+    }
+} */
